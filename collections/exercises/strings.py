@@ -31,3 +31,8 @@ for char in range(index, -1, -1):
 print(newWord)
 
 # 3. Refactor the code to print a combination of the original and reversed string. For example, given 'tomato', print 'tomatootamot'. (If you want to be fancy, print 'tomato | otamot').
+index = len(word) -1
+
+for char in range(index):
+    print(word[char])
+ 

@@ -1,9 +1,9 @@
 engine_indicator_light = "red blinking"
 space_suits_on = True
 shuttle_cabin_ready = True
-crewStatus = space_suits_on and shuttle_cabin_ready
-computerStatusCode = 200
-shuttleSpeed = 15000
+crew_status = space_suits_on and shuttle_cabin_ready
+computer_status_code = 200
+shuttle_speed = 15000
 
 # 3) Write conditional expressions to satisfy the following safety rules:
 
@@ -31,6 +31,7 @@ else:
 
 # 4) PREDICT: Do the code blocks shown in the Section D produce the same result?
 
+<<<<<<< HEAD
 if crewStatus and computerStatusCode== 200 and space_suits_on:
    print("all systems go")
 else:
@@ -43,3 +44,6 @@ else:
 
 # print("Yes" or "No")
 print("yes")
+=======
+# print("Yes" or "No")
+>>>>>>> upstream/main

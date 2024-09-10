@@ -40,7 +40,7 @@ print (make_rectangle(5,3))
 def make_downward_stairs(height):
     stairs = ""
     for i in range(height):
-        #i starts at 1 and then accumulates with the for loop
+        #i starts at "1" and then accumulates with the for loop
         stairs += make_line(i+1) +"\n"
     return stairs
 
